@@ -1,0 +1,165 @@
+/* 
+    Copyright (c) Catharine Haglund and Alexia Moore 2015
+*/
+body {
+  font-size: 90%;
+  height: auto;
+  padding:.5in;
+  width: auto;
+}
+
+.date {
+  display: none;
+}
+
+.education {
+  line-height: 5px;
+  padding: 3px;
+}
+
+.education p {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 10px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 2px;
+  padding:0;
+  text-decoration: underline;  
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 13px;
+  margin-left: 0;
+}
+
+h5 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+  margin: 0;
+  margin-left: 0;
+}
+
+.header2ndMini {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.incorrect {
+  color: red;
+}
+
+.internships {
+  line-height: 5px;
+  padding: 3px;
+}
+
+.internships p {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.leadershipInvolvement {
+  line-height: 5px;
+  padding: 3px;
+}
+
+.leadershipInvolvement {
+  margin: 10px;
+  margin-left: 0;
+}
+
+li {
+  line-height: 17px;
+}
+
+.place {
+  font-weight: normal;
+}
+
+.right {
+  float: right;
+  font-weight: normal;
+}
+
+.techQualifications {
+  line-height: 3px;
+  padding: 3px;
+}
+
+ul {
+  margin-top: 5px;
+  padding-top: 0;
+}
+
+.workExperience {
+  line-height: 5px;
+  padding: 3px;
+}
+
+.workExperience p {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.metLife {
+  color: red;
+}
+
+.creditSuisse {
+  color: red;
+}
+
+.bestBuddies {
+  color: red;
+}
+
+@media only screen and (max-width: 500px) {
+  .right {
+    float: none;
+  }
+
+  .header2ndMini {
+    display: inherit;
+    margin-bottom: 15px;
+  }
+
+  .header2nd {
+    display: none;   
+  }
+
+  h2 {
+    margin-bottom: 0;
+    margin-top: 0; 
+  }
+
+  .date {
+    display: inherit;
+  }
+
+  .right {
+    display: none;
+  }
+}
